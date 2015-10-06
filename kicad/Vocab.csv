@@ -1,14 +1,41 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"C1,C2";"C2";2;"100n";;;
-2;"C3,C4";"C2";2;"10u";;;
-3;"P1,P2";"SIL-1";2;"CONN_1";;;
-4;"K1,K2,K4,K3";"SIL-3";4;"CONN_3";;;
-5;"D2,D1,D4,D3";"D3";4;"1n914";;;
-6;"P3";"SIL-10";1;"ads1115 breakout";;;
-7;"P4,P5";"1pin";2;"CONN_1";;;
-8;"R15,R12,R5,R13";"R4-LARGE_PADS";4;"10k";;;
-9;"R6";"R4-LARGE_PADS";1;"100k";;;
-10;"R11,R7,R8,R9,R10";"R4-LARGE_PADS";5;"1M";;;
-11;"R1,R4,R2,R3";"R4-LARGE_PADS";4;"100K";;;
-12;"R14";"R4-LARGE_PADS";1;"0R";;;
-13;"M1";"Arduino";1;"Arduino";;;
+Reference, Value, Footprint, Datasheet, MFN, MFP
+R4,100K,Resistors_SMD:R_0805,
+R3,100K,Resistors_SMD:R_0805,
+R2,100K,Resistors_SMD:R_0805,
+R1,100K,Resistors_SMD:R_0805,
+R12,10k,Resistors_SMD:R_0805,
+R13,10k,Resistors_SMD:R_0805,
+K1,CONN_3,Socket_Strips:Socket_Strip_Straight_1x03,,640457-2,TE Connectivity
+K2,CONN_3,Socket_Strips:Socket_Strip_Straight_1x03,,640457-2,TE Connectivity
+R11,1M,Resistors_SMD:R_0805,
+R10,1M,Resistors_SMD:R_0805,
+R9,1M,Resistors_SMD:R_0805,
+R7,1M,Resistors_SMD:R_0805,
+C2,100n,Capacitors_SMD:C_1210,,MC1210B104K201CT,Multicomp
+C1,100n,Capacitors_SMD:C_1210,,MC1210B104K201CT,Multicomp
+D1,1n4148,Diodes_SMD:SOD-123,,1n4148W,Vishay
+D2,1n4148,Diodes_SMD:SOD-123,,1n4148W,Vishay
+D3,1n4148,Diodes_SMD:SOD-123,,1n4148W,Vishay
+D4,1n4148,Diodes_SMD:SOD-123,,1n4148W,Vishay
+C3,10u,Capacitors_SMD:c_elec_5x5.8,,AVES106M35C12T-F,Dubilier
+R6,100k,Resistors_SMD:R_0805,
+R8,1M,Resistors_SMD:R_0805,
+R5,10k,Resistors_SMD:R_0805,
+P1,NF,Socket_Strips:Socket_Strip_Straight_1x01,,NF,NF
+K4,NF,Socket_Strips:Socket_Strip_Straight_1x03,,NF,NF
+K3,NF,Socket_Strips:Socket_Strip_Straight_1x03,,NF,NF
+C4,10u,Capacitors_SMD:c_elec_5x5.8,,AVES106M35C12T-F,Dubilier
+P4,NF,Socket_Strips:Socket_Strip_Straight_1x01,,NF,NF
+P5,NF,Socket_Strips:Socket_Strip_Straight_1x01,,NF,NF
+R15,10k,Resistors_SMD:R_0805,
+P6,CONN_2,Socket_Strips:Socket_Strip_Straight_2x01,,640455-2,TE Connectivity
+P2,NF,Socket_Strips:Socket_Strip_Straight_1x01,,,
+U1,ADS1115,Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm,,ADS1115IDGST,TI
+R14,10K,Resistors_SMD:R_0805,
+R17,10K,Resistors_SMD:R_0805,
+R18,10K,Resistors_SMD:R_0805,
+R16,10K,Resistors_SMD:R_0805,
+M1,Arduino,Arduino:Arduino,DOCUMENTATION,NF,NF
+L2,FERRITE BEAD,Choke_SMD:Choke_SMD_1206_Standard,,2512061217Y5,Fair-rite
+L1,FERRITE BEAD,Choke_SMD:Choke_SMD_1206_Standard,,2512061217Y5,Fair-rite
+U2,11aa02e48,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,11aa02e48-I/TT,Microchip

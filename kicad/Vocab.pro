@@ -1,4 +1,4 @@
-update=Wed 19 Aug 2015 11:52:49 BST
+update=Tue 06 Oct 2015 20:03:29 BST
 version=1
 last_client=kicad
 [general]
@@ -61,3 +61,13 @@ LibName29=valves
 LibName30=libraries/Arduino
 LibName31=libraries/ads1x15
 LibName32=libraries/11aa02e48
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
